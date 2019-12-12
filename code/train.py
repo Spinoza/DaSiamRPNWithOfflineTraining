@@ -207,7 +207,7 @@ if __name__ == '__main__':
     z_size = (127, 127)
     x_size = (255, 255)
     batch_size = num_domains = 50
-    num_epoches = 100
+    num_epoches = 10
 
     loader = dataset.load_data(batch_size, z_size, x_size)['train']
 
